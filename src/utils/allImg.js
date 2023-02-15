@@ -6,6 +6,7 @@ import Service2 from "../assets/img/icons/s2.png";
 import Service3 from "../assets/img/icons/s3.png";
 import Service4 from "../assets/img/icons/s4.png";
 import SeriveImg from "../assets/img/about/1.png";
+import Slide from "../assets/img/icons/slide.png";
 
 // import TimeIco from "../assets/img/icons/";
 
@@ -18,4 +19,5 @@ export {
   Service3,
   Service4,
   SeriveImg,
+  Slide,
 };

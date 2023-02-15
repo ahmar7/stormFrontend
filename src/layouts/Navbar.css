@@ -1,0 +1,107 @@
+.main-navbar {
+    background-color: #333542;
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+.container-width {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.upper-nav {
+    display: flex;
+    padding-top: 7px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.highlight-ul {
+    list-style: none;
+    padding: 0;
+    flex-direction: row;
+    display: flex;
+
+}
+
+.highlight-ul li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 40px;
+}
+
+.highlight-ul li img {
+    width: 12px;
+    margin-right: 12px;
+}
+
+.highlight-ul li span {
+
+    color: white;
+}
+
+.logo-area img {
+    width: 140px;
+}
+
+.below-nav {
+    background-color: white;
+    height: 50px;
+    border-radius: 4px;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+    position: relative;
+    z-index: 99;
+    box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 4px 0px, rgba(255, 255, 255, 0.32) 0px 2px 16px 0px;
+}
+
+.nav-ui {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-ui li {
+    list-style: none;
+    padding: 0;
+    /* font-size: 17px; */
+    font-weight: 400;
+    transition: all 0.3s ease;
+
+    cursor: pointer;
+    margin: 0 40px 0 0;
+}
+
+.nav-ui .active {
+    color: #ff6600;
+}
+
+.nav-search {
+    position: relative;
+}
+
+.nav-search input {
+    outline: none;
+    border: 1px solid lightgrey;
+    padding: 10px 30px 10px 10px;
+    border-radius: 5px;
+}
+
+.search-ico {
+    position: absolute;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-left: -25px;
+}
+
+.nav-ui li:hover {
+    color: #ff6600;
+    transition: all 0.3s ease;
+}

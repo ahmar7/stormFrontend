@@ -1,0 +1,38 @@
+.overlay-slider {
+    background-color: rgba(20, 70, 32, 0.404);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    flex-direction: column;
+}
+
+.overlay-slider h1 {
+    color: white;
+    font-size: 52px;
+}
+
+.overlay-slider p {
+    color: white;
+    margin-bottom: 45px;
+    font-size: 18px;
+}
+
+.orange-btn {
+    background-color: #ff6600;
+    border: none;
+    color: white;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    border: 1px solid #ff6600;
+    border-radius: 5px;
+    padding: 12px 30px;
+}
+
+.orange-btn:hover {
+    transition: all 0.3s ease;
+    background-color: transparent;
+    border-color: #ff6600;
+    color: #ff6600;
+}

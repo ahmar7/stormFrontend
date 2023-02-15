@@ -1,0 +1,25 @@
+.about-us {
+    padding: 60px 0 100px 0;
+}
+
+.gray {
+    color: gray;
+    text-align: justify;
+    text-align-last: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.white {
+    color: white !important;
+
+}
+
+.below-sec {
+    padding: 40px 0 50px 0;
+}
+
+.service-blocks {
+    display: flex;
+    flex-direction: row;
+}

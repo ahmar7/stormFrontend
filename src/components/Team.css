@@ -1,0 +1,23 @@
+.team-head {
+    padding-top: 60px;
+}
+
+.new img {
+    width: 150px;
+}
+
+.team-img {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    /* flex-wrap: wrap; */
+}
+
+.t-img {
+    width: 100%
+}
+
+.t-img img {
+
+    width: 100%;
+}

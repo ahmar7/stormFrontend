@@ -1,5 +1,6 @@
 .testimonial-sec {
     background-color: #f8f8fa;
+    min-height: 650px;
 }
 
 .bg-img {
@@ -26,4 +27,42 @@
     text-align: center;
     margin: 10px 0;
     color: white;
+}
+
+.testimonial-block {
+    position: relative;
+    margin: 50px 20px;
+    border-radius: 6px;
+    background-color: white;
+    min-height: 200px;
+    padding: 50px 25px 10px 25px;
+    box-sizing: border-box;
+    /* width: 90%; */
+
+}
+
+.user-img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    top: -40px;
+}
+
+.user-img img {
+    width: 80px;
+    text-align: center;
+    margin: 0 auto;
+
+    border-radius: 100%;
+}
+
+.red {
+    color: #dd0d29;
+    margin: 8px 0;
+}
+
+.top-m {
+    margin-top: 20px;
 }

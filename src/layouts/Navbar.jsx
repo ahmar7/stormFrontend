@@ -1,7 +1,15 @@
-import React from 'react';
-import { LocationIco, Logo } from '../utils/allImg';
+import React,{useState} from 'react';
+import { IconToggle, LocationIco, Logo } from '../utils/allImg';
 import './Navbar.css'
 const Navbar = () => {
+  const [navToggle, setnavToggle] = useState(true);
+  let toggleNav=()=>{
+    if(navToggle==false){
+      setnavToggle(true)
+    }else{
+      setnavToggle(false)
+    }
+  }
   return (
     <div className='main-navbar'>
       <div className="container-width">
@@ -23,8 +31,9 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
-        <div className="below-nav">
-          <div className="nav-links">
+        <div className={navToggle ? "below-nav " : "below-nav no-radius"}>
+          <div className="mobile-bar" onClick={toggleNav}><img src={IconToggle} alt="" /></div>
+          <div className={navToggle ? "nav-links" :"show-it nav-links"}>
             <ul className='nav-ui'>
               <li className='active'>FORSIDE</li>
               <li>OM OS</li>
@@ -35,7 +44,7 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="nav-search">
-            <input type="text"  placeholder='Sog' />
+            <input type="text" placeholder='Sog' />
             <span className="search-ico"><i class="fas fa-search"></i></span>
           </div>
         </div>

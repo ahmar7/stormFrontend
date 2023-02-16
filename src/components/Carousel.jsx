@@ -46,7 +46,7 @@ const ImgCarousel = () => {
                 <Slide>
                     {slideImages.map((slideImage, index) => (
                         <div key={index}>
-                            <div style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})` }}>
+                            <div className='slider-img' style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})` }}>
 
                                 <div className="overlay-slider" >
                                     <h1  >{slideImage.caption}</h1>

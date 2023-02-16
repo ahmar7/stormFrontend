@@ -5,10 +5,6 @@
     position: relative;
 }
 
-.container-width {
-    max-width: 1280px;
-    margin: 0 auto;
-}
 
 .upper-nav {
     display: flex;
@@ -104,4 +100,104 @@
 .nav-ui li:hover {
     color: #ff6600;
     transition: all 0.3s ease;
+}
+
+.mobile-bar {
+    display: none;
+}
+
+
+@media (max-width:920px) {
+    .nav-links {
+        /* display: none; */
+        position: absolute;
+        background: white;
+        width: 100%;
+        left: 0;
+        top: 59px;
+        overflow: hidden;
+        height: 0;
+        padding: 0px 15px;
+        box-sizing: border-box;
+        transition: all 0.4s ease;
+    }
+
+    .show-it {
+        height: 332px;
+        transition: all 0.4s ease;
+        overflow: auto;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+
+    .nav-ui .active {
+        color: white;
+        background-color: #ff6600;
+    }
+
+    .below-nav {
+
+        padding: 5px 15px;
+
+    }
+
+    .nav-ui li {
+        background-color: #333542;
+        padding: 15px 10px;
+        box-sizing: border-box;
+        border-top: 1px solid white;
+        width: 100%;
+        color: white;
+        transition: all 0.3s ease;
+    }
+
+    .nav-ui li:hover {
+        background-color: #ff6600;
+        color: white;
+        transition: all 0.3s ease;
+    }
+
+    .nav-ui {
+        flex-direction: column;
+    }
+
+    .mobile-bar {
+        display: block;
+        padding: 9px 15px;
+        background-color: #333542;
+        padding-top: 13px !important;
+    }
+
+    .upper-nav {
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .highlight-ul {
+        flex-direction: column;
+        list-style: none;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* .nav-links {
+        display: none;
+    } */
+
+    .main-navbar {
+
+        height: 238px;
+    }
+
+    .highlight-ul li {
+        margin: 8px 0;
+    }
+
+    .no-radius {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
 }

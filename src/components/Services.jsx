@@ -53,7 +53,7 @@ const Services = () => {
                         </h3>
                   </div>
                   <div className="form">
-                    <input type="text " placeholder='Dit navan' />
+                    <input className='firsr-child' type="text " placeholder='Dit navan' />
                     <input type="email "  placeholder='Dit Email' />
                     <input type="num " placeholder='Telefone nr.' />
                     <button className="orange-btn">Send</button>
